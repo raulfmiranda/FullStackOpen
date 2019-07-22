@@ -1,0 +1,22 @@
+title Exercise 0.6
+
+
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+
+
+note over server:
+Server responds with status code 201 created 
+Server does not ask for a redirect 
+end note
+
+
+
+server-->browser: {"message":"note created"}
+
+
+
+note over browser:
+Browser stays on the same page 
+end note
